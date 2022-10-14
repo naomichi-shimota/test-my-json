@@ -2,35 +2,64 @@
     "auth": {
             "code": "1234",
             "state": ""  
-        },
-    "auth_error":{
+    },
+    "auth_error": {
             "error":"invalid_request",
             "state":""
-        },
+    },
     "token": {
-            "club_animate":
-                {
-                    "result":
-                    
-                        {
-                            "access_token":"aqwsedrftgyhujikolp",
-                            "refresh_token":"aqwsedrftgyhujikolp",
-                            "expires_in":"1000",
-                            "refresh_token_expires_in":"1000"                            
-
-                        }
-                    
-                }
-            
-        },
-    "token_error": {
-            "club_animate":
-                {
-                    "error":
-                        {
-                            "code":"invalid_request"
-                        }
-                }
-            
+        "club_animate":{
+            "result": {
+                "access_token":"aqwsedrftgyhujikolp",
+                "refresh_token":"qwertyuiop[]qwertw",
+                "expires_in":"1000",
+                "refresh_token_expires_in":"1000"                            
+            }
         }
+            
+    },
+    "token_error": {
+        "club_animate":{
+            "error": {
+                "code":"invalid_request"
+            }
+        }
+            
+    },
+    "customer": {
+        "club_animate":{
+            "status": {
+                "code": 200,
+                "count": 10,
+                "error": {
+                    "code": "E0000001"
+                }
+            },
+            "customer": {
+                "customer_id": "asdfghjkl3'ghjk" ,
+                "last_name": "テスト",
+                "first_name": "太郎",
+                "last_name_kana": "テスト",
+                "first_name_kana": "タロウ",
+                "sex_id": "1",
+                "card_number": "1234567890",
+                "birthday": "2022-01-23",
+                "zip1": "123",
+                "zip2": "1234",
+                "prefecture_id": "1",
+                "address1": "テスト県テスト市テスト町1",
+                "address2": "2-3-テストマンション101",
+                "tel1_1": "123-4567-8910",
+                "tel1_2": "123-4567-8910",
+                "tel1_3": "123-4567-8910",
+                "tel2_1": "123-4567-8910",
+                "tel2_2": "123-4567-8910",
+                "tel2_3": "123-4567-8910",
+                "mail_address": "test123@example.com",
+                "access_mail_address": "test123@example.com"
+            }
+        }
+    }
 }
+		
+			
