@@ -1,5 +1,5 @@
 {
-    "outh": {
+    "auth": {
             "code": "1234",
             "state": ""  
         },
@@ -27,11 +27,9 @@
             "club_animate":
                 {
                     "error":
-                    [
                         {
                             "code":"invalid_request"
                         }
-                    ]
                 }
             
         }
