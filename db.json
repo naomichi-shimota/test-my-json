@@ -32,7 +32,6 @@
                 "code": 200,
                 "count": 10,
                 "error": {
-                    "code": "E0000001"
                 }
             },
             "customer": {
