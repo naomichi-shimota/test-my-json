@@ -1,9 +1,7 @@
 {
     "auth": {
-        "result":{
             "code": "1234",
             "state": ""  
-        }
         },
     "auth_error":{
             "error":"invalid_request",
