@@ -8,10 +8,10 @@
             "state":""
         },
     "token": {
-            "club_animate":[
+            "club_animate":
                 {
                     "result":
-                    [
+                    
                         {
                             "access_token":"aqwsedrftgyhujikolp",
                             "refresh_token":"aqwsedrftgyhujikolp",
@@ -19,12 +19,12 @@
                             "refresh_token_expires_in":"1000"                            
 
                         }
-                    ]
+                    
                 }
-            ]
+            
         },
     "token_error": {
-            "club_animate":[
+            "club_animate":
                 {
                     "error":
                     [
@@ -33,6 +33,6 @@
                         }
                     ]
                 }
-            ]
+            
         }
 }
