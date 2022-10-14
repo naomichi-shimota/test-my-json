@@ -1,5 +1,38 @@
 {
-    "profile": {
-      "name": "typicode"
-    }
-  }
+    "outh": {
+            "code": "1234",
+            "state": ""  
+        },
+    "outh_error":{
+            "error":"invalid_request",
+            "state":""
+        },
+    "token": {
+            "club_animate":[
+                {
+                    "result":
+                    [
+                        {
+                            "access_token":"aqwsedrftgyhujikolp",
+                            "refresh_token":"aqwsedrftgyhujikolp",
+                            "expires_in":"1000",
+                            "refresh_token_expires_in":"1000"                            
+
+                        }
+                    ]
+                }
+            ]
+        },
+    "token_error": {
+            "club_animate":[
+                {
+                    "error":
+                    [
+                        {
+                            "code":"invalid_request"
+                        }
+                    ]
+                }
+            ]
+        }
+}
