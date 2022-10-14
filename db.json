@@ -31,8 +31,7 @@
             "status": {
                 "code": 200,
                 "count": 10,
-                "error": {
-                }
+                "error": ""
             },
             "customer": {
                 "customer_id": "asdfghjkl3'ghjk" ,
